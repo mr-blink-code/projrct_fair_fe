@@ -1,0 +1,12 @@
+*{
+  margin: 0%;
+  font-family: "SUSE", sans-serif;
+  padding: 0%;
+  
+}
+.suse-normal {
+  font-family: "SUSE", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
