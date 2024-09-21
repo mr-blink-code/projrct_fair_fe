@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Container fluid>
         <Row>
-          <Col className='d-flex align-items-center bg-info'>
+          <Col lg={} className='d-flex align-items-center bg-info'>
           <Container>
               <h1 className='fs-1 fw-bold text-end'>Project Fair</h1>
               <p className='fs-3 text-end'>One stop destination for any<br /><span className='fw-semibold'>software projects.</span></p>
