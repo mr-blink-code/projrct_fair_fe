@@ -1,4 +1,3 @@
-import './App.css'
 import Home from './pages/Home'
 import Auth from './pages/Auth'
 import Header from './components/Header'
@@ -6,9 +5,10 @@ import Footer from './components/Footer'
 import Dashbord from './pages/Dashbord'
 import Projects from './pages/Projects'
 import { Routes,Route } from 'react-router-dom'
+import { ToastContainer} from 'react-bootstrap'
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
-  
 
   return (
     <>
@@ -21,6 +21,7 @@ function App() {
       <Route path='/project' element={<Projects/>}/>
      </Routes>
      <Footer/>
+     <ToastContainer/>
      </>
   )
 }

@@ -9,13 +9,14 @@ export default function MyProfile() {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <Row>
-        <Col>Profile</Col>
-        <Col><FontAwesomeIcon
+      <Row className='p-2'>
+        <Col className='fs-3 fw-bold'>Profile</Col>
+        <Col className='d-flex align-items-center justify-content-end' >
+        <FontAwesomeIcon
           onClick={() => setOpen(!open)}
           aria-controls="example-collapse-text"
           aria-expanded={open}
-          
+          className='bg-warning rounded p-2'
           icon={faAngleUp}
         /></Col>
       </Row>
